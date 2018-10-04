@@ -11,3 +11,8 @@ def line(array)
   end
 end
 
+def take_a_number(array, name)
+  # array.push(name)
+  array.push(name)
+  puts "#{name}, you are now the #{array.index(name)} person in line."
+end
