@@ -12,7 +12,6 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  # array.push(name)
-  array.push(name)
-  puts "#{name}, you are now the #{array.index(name)} person in line."
+  array << name
+  puts "#{name}, you are number #{array.length} in line."
 end
