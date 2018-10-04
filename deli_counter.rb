@@ -7,6 +7,7 @@ def line(array)
     array.each_with_index do |val, index|
       message += " #{index.to_i + 1}. #{val}"
     end
+    puts "#{message}"
   end
 end
 
