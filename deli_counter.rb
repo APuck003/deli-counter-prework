@@ -4,3 +4,7 @@ def line(array)
   else
     array.each_with_index do |val, index|
       puts "The line is currently: #{index.to_i + 1}. #{val}"
+    end
+  end
+end
+
